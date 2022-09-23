@@ -1,0 +1,17 @@
+spring:
+  mail:
+    host: smtp.163.com
+    username: javastudywxh@163.com
+    password: ALGOIFARYJGGBZOV
+  datasource:
+    url: jdbc:mysql://localhost:3306/jpa? serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: wxh
+    password: 123456
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+springfox:
+  documentation:
+    enabled: false
